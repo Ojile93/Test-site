@@ -8,7 +8,7 @@ function AppRouter(){
   return(
     <BrowserRouter>
     <Routes>
-    <Route path = "/" element = {<Background/>}/>
+    <Route path = "/" index element = {<Background/>}/>
     <Route path ="/Register" element= {<Register/>}/>
     <Route path ="/login" element={<LoginPage/>}/>
     </Routes>

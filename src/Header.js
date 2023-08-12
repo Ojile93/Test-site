@@ -29,12 +29,12 @@ const closemodal =(event) => {
     <div className='head'>
    <div className ='modal' id ='modal'>
     <p className="" style = {{textAlign: 'center'}}><b>Please login to view Results</b> </p>
-    <p><a href='' className='modal-ext'>Continue</a> <span onClick={closemodal}style={{color:"lightgreen"}}>Cancel</span></p>
+    <p><a href='/Login' className='modal-ext'>Continue</a> <span onClick={closemodal}style={{color:"lightgreen"}}>Cancel</span></p>
     </div>
     <img src={menuIcon} className ='menuicon' onClick={openmenu}/>
     <ul className ='header'>
     <li><a href='/Register'>Register</a></li>
-    <li><a href=''>Login</a></li>
+    <li><a href='/Login'>Login</a></li>
     <li onClick ={openmodal} style = {{color:"blue"}}>View Results</li>
     </ul>
     <div className='schname'><img src={edu2} className ='edu2'/> <p1><b> Our Lady Queen of Apostles College </b></p1></div>

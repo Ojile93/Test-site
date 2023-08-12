@@ -1,7 +1,7 @@
 {
   "name": "todolist",
   "version": "0.1.0",
-  "homepage": "https://github.com/Ojile93/Schtest.git",
+  "homepage": "https://github.com/Ojile93/Test-site.git",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
